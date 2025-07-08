@@ -3,12 +3,56 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Početna</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style/index.css">
   </head>
   <body>
-    <%- include('partials/footer.ejs')  %>
+    <%- include('partials/header.ejs')  %>
+    <div class="indexMain container-fluid">
+      <div class="indexDiv row mt-4">
+        <div class="col-1"></div>
+        <div class="col-lg-6 col-12 text-left">
+          <h1><%=index[0].title%></h1>
+          <p class="fs-4 fw-light">
+            <%=index[0].content%>
+          </p>
+        </div>
+        <div class="indexImg col-lg-4 col-12 text-end">
+          <img width="400px" src="images/computer.jpg" alt="">
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="indexDiv row mt-4">
+        <div class="col-1"></div>
+        <div class="col-lg-6 col-12 text-right">
+          <h1><%=index[1].title%></h1>
+          <p class="fs-4 fw-light">
+            <%-index[1].content%>
+          </p>
+        </div>
+        <div class="indexImg col-lg-4 col-12 text-end">
+          <img width="300px" src="images/COMP FIRST-AID normal.png" alt="">
+        </div>
+        
+        
+        <div class="col-1"></div>
+      </div>
+      <div class="indexDiv row mt-4">
+        <div class="col-1"></div>
+        <div class="col-lg-6 col-12 text-left">
+          <h1><%=index[2].title%></h1>
+          <p class="fs-4 fw-light">
+            <%=index[2].content%>
+          </p>
+        </div>
+        <div class="indexImg col-lg-4 col-12 text-end">
+          <img width="400px" src="images/computer.jpg" alt="">
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
 </html>

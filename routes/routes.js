@@ -1,23 +1,23 @@
 // routes.js
 const express = require('express');
 const router = express.Router();
-const indexdata = require('../database/index.json'); // If you're using a JSON database
+const data = require('../database/data.json'); // If you're using a JSON database
 
 // Home route (for "/")
 router.get('/', (req, res) => {
-  res.render('index', { cards: indexdata }); // Pass your data to EJS
+  res.render('index', { index: data.index }); // Pass your data to EJS
 });
 
 router.get('/cenovnik', (req, res) => {
-  res.render('cenovnik', { cards: indexdata }); // Pass your data to EJS
+  res.render('cenovnik', { cenovnik: data.cenovnik }); // Pass your data to EJS
 });
 
 router.get('/kontakt', (req, res) => {
-  res.render('kontakt', { cards: indexdata }); // Pass your data to EJS
+  res.render('kontakt', { cards: data }); // Pass your data to EJS
 });
 
 router.get('/omeni', (req, res) => {
-  res.render('omeni', { cards: indexdata }); // Pass your data to EJS
+  res.render('omeni', { cards: data }); // Pass your data to EJS
 });
 
 // Add other routes if needed

@@ -1,0 +1,11 @@
+.indexDiv{
+
+}
+@media only screen and (max-width: 991px) {
+    .indexDiv {
+      text-align: center !important;
+    }
+    .indexImg{
+        text-align: center !important;
+    }
+  }

@@ -1,9 +1,21 @@
 {
-    "index": [
-    { "title": "Šta pružamo od usluga?", "content": "Kod nas u ponudi možete naći asortiman različitih usluga, zamena termalne paste, instaliranje operativnih sistema (Windows, Linux...),  profesionalnih programa i video igara kao i još mnogo toga. Možete proveriti sve dostupne usluge ovde. Kreiranje sajtova koji se mogu se koristiti u privatne svrhe ili poslovne, sa dinamičkim ili statičkim izgledom." },
-    { "title": "Zašto mi?", "content": "Iskusan mladi radnik sa više sastavljenih računara, poznavanjem čak i PS3 hardware-a, rešeni brojni problemi na računarima i visoko poznavanje softwarea.<br> Pouzdanost i povoljnost na jednom mestu." },
-    { "title": "Odakle smo?", "content": "Servis računara nalazi se u Pančevu, moguć je dolazak direktno na adresu ili donošenje računara kod nas. Nadamo se da ćemo biti Vaša prva opcija, srećna kupovina!" }
-],
+    "index": {
+        "titles":[
+                {"title": "Šta pružamo od usluga?", "content":""},
+                {"title": "Zašto baš mi?", "content":"Iskusan mladi radnik sa više sastavljenih računara, poznavanjem čak i PS3 hardware-a, rešeni brojni problemi na računarima i visoko poznavanje softwarea.<br> Pouzdanost i povoljnost na jednom mestu."},
+                { "title": "Odakle smo?", "content": "Servis računara nalazi se u Pančevu, moguć je dolazak direktno na adresu ili donošenje računara kod nas. Nadamo se da ćemo biti Vaša prva opcija, srećna kupovina!" }
+            
+        ],
+        "card":[
+            { "title": "Zamena termalne paste", "content": "Moguće je menjanje paste na računarima, PS3 i ostalim konzolama..." },
+            { "title": "Sastavljanje računara", "content": "Sastavljanje svih komponenata u jednu celinu (ne radimo sa vodenim hlađenjem i pastama od tečnog metala)." },
+            { "title": "Instaliranje softvera", "content": "Ponuda se kreće od najnovih operativnih sistema, do profesionalnih aplikacija pa čak i video igara." },
+            { "title": "Pravljenje web-stranica", "content": "Statičke i dinamičke web strane (poput ove) su takođe dostupne. Moguća integracija sa bazom podataka." },
+            { "title": "Editovanje videa/slika", "content": "Rad u Premiere Pro i Photoshop programu za razne montaže" },
+            { "title": "I još mnogo toga...", "content": "To nije sve! Kliknite <a href='/cenovnik'> ovde </a> za cene i još sjajnih usluga." }
+        ]
+    
+    },
     "cenovnik": [
     { "title": "Šta pružamo od usluga?", "content": "Kod nas u ponudi možete naći asortiman različitih usluga, zamena termalne paste, instaliranje operativnih sistema (Windows, Linux...),  profesionalnih programa i video igara kao i još mnogo toga. Možete proveriti sve dostupne usluge ovde. Kreiranje sajtova koji se mogu se koristiti u privatne svrhe ili poslovne, sa dinamičkim ili statičkim izgledom." },
     { "title": "Card 2", "content": "This is the second card." },

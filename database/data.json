@@ -2,8 +2,8 @@
     "index": {
         "titles":[
                 {"title": "Šta pružamo od usluga?", "content":""},
-                {"title": "Zašto baš mi?", "content":"Iskusan mladi radnik sa više sastavljenih računara, poznavanjem čak i PS3 hardware-a, rešeni brojni problemi na računarima i visoko poznavanje softwarea.<br> Pouzdanost i povoljnost na jednom mestu."},
-                { "title": "Odakle smo?", "content": "Servis računara nalazi se u Pančevu, moguć je dolazak direktno na adresu ili donošenje računara kod nas. Nadamo se da ćemo biti Vaša prva opcija, srećna kupovina!" }
+                {"title": "Zašto baš mi?", "content":"Iskusan mladi radnik sa više sastavljenih računara, poznavanjem čak i PS3 hardware-a, rešeni brojni problemi na računarima i visoko poznavanje softwarea.<br> <b style='font-weight:600'>Pouzdanost</b> i <b style='font-weight:600'>povoljnost</b> na jednom mestu."},
+                { "title": "Odakle smo?", "content": "Servis računara nalazi se u Pančevu, moguć je dolazak na Vašu adresu ili donošenje računara kod nas. Nadamo se da ćemo biti Vaša prva opcija, srećna kupovina!" }
             
         ],
         "card":[
@@ -17,9 +17,19 @@
     
     },
     "cenovnik": [
-    { "title": "Šta pružamo od usluga?", "content": "Kod nas u ponudi možete naći asortiman različitih usluga, zamena termalne paste, instaliranje operativnih sistema (Windows, Linux...),  profesionalnih programa i video igara kao i još mnogo toga. Možete proveriti sve dostupne usluge ovde. Kreiranje sajtova koji se mogu se koristiti u privatne svrhe ili poslovne, sa dinamičkim ili statičkim izgledom." },
-    { "title": "Card 2", "content": "This is the second card." },
-    { "title": "Card 3", "content": "This is the third card." }
+    { "title": "Zamena termalne paste", "price": "500RSD" },
+    { "title": "Sklapanje računara", "price": "1500RSD" },
+    { "title": "Reinstaliranje Windowsa", "price": "750RSD" },
+    { "title": "Instaliranje Windowsa", "price": "400RSD"},
+    { "title": "Instaliranje Linuxa", "price": "700RSD"},
+    { "title": "Popravka računara", "price": "Zavisno od kvara"},
+    { "title": "Editovanje slika", "price": "100RSD - 500RSD"},
+    { "title": "Editovanje videa", "price": "200RSD - 2000RSD"},
+    { "title": "Statička web stranica", "price": "1000RSD (cena se moze razlikovati, u cenu ne ulazi hosting)"},
+    { "title": "Dinamička web stranica", "price": "3000RSD (cena se moze razlikovati, u cenu ne ulazi hosting)"},
+    { "title": "Instaliranje programa", "price": "200RSD/program (poslati poruku ili pozvati za dostupnost)"},
+    { "title": "Instaliranje igara offline", "price": "100RSD/igra (poslati poruku ili pozvati za dostupnost)"},
+    { "title": "Rezanje CD-eva", "price": "50RSD/CD"}
 ],
     "omeni": [
     { "title": "Šta pružamo od usluga?", "content": "Kod nas u ponudi možete naći asortiman različitih usluga, zamena termalne paste, instaliranje operativnih sistema (Windows, Linux...),  profesionalnih programa i video igara kao i još mnogo toga. Možete proveriti sve dostupne usluge ovde. Kreiranje sajtova koji se mogu se koristiti u privatne svrhe ili poslovne, sa dinamičkim ili statičkim izgledom." },

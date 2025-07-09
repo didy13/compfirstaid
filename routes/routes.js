@@ -2,6 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const data = require('../database/data.json'); // If you're using a JSON database
+const controller = require('../controllers/controller');
 
 // Home route (for "/")
 router.get('/', (req, res) => {
@@ -19,6 +20,8 @@ router.get('/kontakt', (req, res) => {
 router.get('/omeni', (req, res) => {
   res.render('omeni', { cards: data }); // Pass your data to EJS
 });
+
+router.get("/download", controller.download);
 
 // Add other routes if needed
 // router.get('/about', (req, res) => {

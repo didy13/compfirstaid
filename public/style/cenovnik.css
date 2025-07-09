@@ -1,0 +1,53 @@
+.col-6{
+    padding: 0 !important;
+}
+.cena-title{
+    border: 1px solid black;
+    border-right: transparent !important;
+    transform: translateX(100px);
+    padding:10px;
+    font-size: 20px;
+}
+.cena-price{
+    border: 1px solid black;
+    border-left: transparent !important;
+    transform: translateX(-100px);
+    padding:10px;
+    font-size: 20px;
+}
+.cenovnikMain {
+    border-radius: 20px;
+    border: 5px rgb(0, 119, 255) dotted;
+    padding:5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+}
+.cenovnikMain div h1{
+    font-size: 50px;
+}
+.container-fluid{
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 1570px) {
+      
+    .cenovnikMain{
+       
+        width:75%;
+        
+    }
+   
+  }
+  @media only screen and (max-width: 1569px) {
+      
+    .cenovnikMain{
+       
+        width:100%;
+        
+    }
+   
+  }

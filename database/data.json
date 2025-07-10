@@ -17,19 +17,19 @@
     
     },
     "cenovnik": [
-    { "title": "Zamena termalne paste", "price": "500RSD" },
-    { "title": "Sklapanje računara", "price": "1500RSD" },
-    { "title": "Reinstaliranje Windowsa", "price": "750RSD" },
-    { "title": "Instaliranje Windowsa", "price": "400RSD"},
-    { "title": "Instaliranje Linuxa", "price": "700RSD"},
-    { "title": "Popravka računara", "price": "Zavisno od kvara"},
-    { "title": "Editovanje slika", "price": "100RSD - 500RSD"},
-    { "title": "Editovanje videa", "price": "200RSD - 2000RSD"},
-    { "title": "Statička web stranica", "price": "1000RSD (cena se moze razlikovati, u cenu ne ulazi hosting)"},
-    { "title": "Dinamička web stranica", "price": "3000RSD (cena se moze razlikovati, u cenu ne ulazi hosting)"},
-    { "title": "Instaliranje programa", "price": "200RSD/program (poslati poruku ili pozvati za dostupnost)"},
-    { "title": "Instaliranje igara offline", "price": "100RSD/igra (poslati poruku ili pozvati za dostupnost)"},
-    { "title": "Rezanje CD-eva", "price": "50RSD/CD"}
+    { "title": "Zamena termalne paste", "price": "500 RSD", "details": "" },
+    { "title": "Sklapanje računara", "price": "1500 RSD", "details": "" },
+    { "title": "Reinstaliranje Windowsa", "price": "750 RSD", "details": "" },
+    { "title": "Instaliranje Windowsa", "price": "400 RSD", "details": ""},
+    { "title": "Instaliranje Linuxa", "price": "700 RSD", "details": ""},
+    { "title": "Popravka računara", "price": "Zavisno od kvara", "details": ""},
+    { "title": "Editovanje slika", "price": "100 RSD - 500 RSD", "details": ""},
+    { "title": "Editovanje videa", "price": "200 RSD - 2000 RSD", "details": ""},
+    { "title": "Statička web stranica", "price": "1000 RSD", "details": "(cena se moze razlikovati, u cenu ne ulazi hosting)"},
+    { "title": "Dinamička web stranica", "price": "3000 RSD", "details": " (cena se moze razlikovati, u cenu ne ulazi hosting)"},
+    { "title": "Instaliranje programa", "price": "200 RSD/program", "details": " (poslati poruku ili pozvati za dostupnost)"},
+    { "title": "Instaliranje igara offline", "price": "100 RSD/igra", "details": " (poslati poruku ili pozvati za dostupnost)"},
+    { "title": "Rezanje CD-eva", "price": "50 RSD/CD", "details": ""}
 ],
     "omeni": [
     { "title": "Šta pružamo od usluga?", "content": "Kod nas u ponudi možete naći asortiman različitih usluga, zamena termalne paste, instaliranje operativnih sistema (Windows, Linux...),  profesionalnih programa i video igara kao i još mnogo toga. Možete proveriti sve dostupne usluge ovde. Kreiranje sajtova koji se mogu se koristiti u privatne svrhe ili poslovne, sa dinamičkim ili statičkim izgledom." },

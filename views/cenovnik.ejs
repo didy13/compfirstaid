@@ -14,23 +14,47 @@
   </head>
   <body>
     <%- include('partials/header.ejs')  %>
-    <div class="container-fluid mt-5 mb-5">
+    
+    <div class="cenovnik-desktop container-fluid mt-5 mb-5">
+      
         <div class="cenovnikMain row mx-auto">
+          <img class="cenovnik-icon" src="images/discount.png" alt="">
+          
+          
+          
           <div class="col-12 text-center">
             <h1 class="mb-4">Cenovnik</h1>
           </div>
           <div class="col-6 text-start cena-titles">
             <% cenovnik.forEach(cena => { %>
-              <div class=" cena-title"><%-cena.title%></div><br>
+              <div class=" cena-title"><h5 class="d-inline"><%-cena.title%></h5></div><br>
             <% });  %>
           </div>
           <div class="col-6 text-end cena-prices">
             <% cenovnik.forEach(cena => { %>
-              <div class=" cena-price"><%-cena.price%></div><br>
+              <div class=" cena-price"><%-cena.price%> <span class="cena-details"><%- cena.details%></span></div>
+             <br>
             <% });  %>
           </div>
         </div>
     </div>
+    <div class="cenovnik-mobile container-fluid mt-5 mb-5">
+      <div class="cenovnikMain row mx-auto">
+        <img class="cenovnik-icon" src="images/discount.png" alt="">
+        <div class="col-12 text-center">
+          <h1 class="mb-4">Cenovnik</h1>
+        </div>
+        <div class="col-12 text-center cena">
+          <% cenovnik.forEach(cena => { %>
+            <div class=" cena-content "><h5 class="d-inline"><%-cena.title%></h5><br><%-cena.price%>
+            <div class="cena-details"><%- cena.details%></div>
+          </div><br>
+            
+          <% });  %>
+        </div>
+        
+      </div>
+  </div>
     <%- include('partials/footer.ejs')  %>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>

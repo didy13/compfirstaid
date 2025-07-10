@@ -41,7 +41,9 @@
     }
   .footer{
     background-color: #00c3ff;
-    
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   }
   .footer-icon{
     transition: transform 0.3s ease-in-out;
@@ -50,4 +52,34 @@
   .footer-icon:hover{
     transform:scale(1.2);
     cursor: pointer;
+  }
+  .moving-div {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    background-color: darkblue;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 5px; /* Optional background */
+  }
+  
+  .moving-span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left-right 25s linear infinite;
+    font-weight: bold;
+    color: #ffffff; /* Optional color */
+    font-size: 1.2rem;
+  }
+  
+  @keyframes scroll-left-right {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }

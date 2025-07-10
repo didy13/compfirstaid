@@ -15,16 +15,24 @@
     padding:10px;
     font-size: 20px;
 }
+.cena-details{
+    font-size: 15px !important;
+    top: -20px;
+    margin: 0;
+}
 .cenovnikMain {
     border-radius: 20px;
     border: 5px rgb(0, 119, 255) dotted;
     padding:5px;
     padding-top: 50px;
     padding-bottom: 50px;
+    top: 50px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    width: 100%;
+    position: relative; 
+    overflow: visible;
+    box-sizing: border-box;
 }
 .cenovnikMain div h1{
     font-size: 50px;
@@ -33,21 +41,68 @@
     justify-content: center;
     align-items: center;
 }
-@media only screen and (min-width: 1570px) {
-      
-    .cenovnikMain{
-       
-        width:75%;
-        
+  /*@media only screen and (min-width: 1101px) and (max-width: 1299px) {
+    .cenovnikMain {
+      width: 100%;
     }
-   
-  }
+  }*/
+  
+  /* Between 1300px and 1569px */
   @media only screen and (max-width: 1569px) {
-      
-    .cenovnikMain{
-       
-        width:100%;
-        
+    .cenovnikMain {
+      width: 85%;
     }
-   
   }
+  
+  /* Screens larger than 1570px */
+  @media only screen and (min-width: 1570px) {
+    .cenovnikMain {
+      width: 75%;
+    }
+  }
+  
+  @media only screen and (max-width: 1166px){
+    .cenovnik-desktop{
+        display: none;
+    }
+    .cenovnik-mobile{
+        display: block;
+    }
+    .cenovnik-icon{
+        width: 200px !important;
+        top: -30px !important;
+    }
+  }
+  @media only screen and (min-width: 1165px){
+    .cenovnik-desktop{
+        display: block;
+    }
+    .cenovnik-mobile{
+        display: none;
+    }
+  }
+  .cena{
+    font-size: 20px;
+  }
+  .cena-content{
+    border: 1px solid black;
+    padding:10px
+  }
+  .box {
+    position: relative; /* <-- important */
+    width: 200px;
+    height: 150px;
+    background: lightblue;
+    margin: 50px;
+  }
+ 
+  .cenovnik-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    transform: translate(40%, -40%);
+    width:300px;
+  }
+  
+  

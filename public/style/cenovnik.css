@@ -99,7 +99,7 @@
   .cenovnik-icon {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 35px;
     z-index: 10;
     transform: translate(40%, -40%);
     width:300px;

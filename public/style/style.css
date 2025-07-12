@@ -83,3 +83,24 @@
       transform: translateX(-100%);
     }
   }
+  @keyframes highlightFooter {
+    0% {
+      background: #00c3ff;
+    }
+    50% {
+      background: #79e0ff;
+    }
+    100%{
+      background: #00c3ff;
+    }
+  }
+  
+#footer {
+  transition: background-color 0.3s;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #636363;
+}

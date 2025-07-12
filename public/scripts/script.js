@@ -1,6 +1,16 @@
 var x;
-function tab(){
-     x = window.open("https://github.com/didy13/compfirstaid", "", "");
+function tab(id){
+     switch (id){
+          case "github": x = window.open("https://github.com/didy13/compfirstaid", "", "");
+          break;
+          case "instagram": x = window.open("https://instagram.com", "", "");
+          break;
+          case "tiktok": x = window.open("https://tiktok.com", "", "");
+          break;
+          case "facebook": x = window.open("https://facebook.com", "", "");
+          break;
+     }
+     
 }
 function disableDropdown(){
      if(window.innerWidth < 991){

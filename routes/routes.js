@@ -2,7 +2,8 @@
 const express = require('express');
 const router = express.Router();
 const data = require('../database/data.json'); // If you're using a JSON database
-const controller = require('../controllers/controller');
+const download = require('../controllers/download');
+const results = require('../controllers/search')
 
 // Home route (for "/")
 router.get('/', (req, res) => {
@@ -13,15 +14,19 @@ router.get('/cenovnik', (req, res) => {
   res.render('cenovnik', { cenovnik: data.cenovnik }); // Pass your data to EJS
 });
 
-router.get('/kontakt', (req, res) => {
-  res.render('kontakt', { cards: data }); // Pass your data to EJS
-});
+router.post('/search', (req, res) => {
 
-router.get('/omeni', (req, res) => {
-  res.render('omeni', { cards: data }); // Pass your data to EJS
-});
+  console.log(req.body);
+    const userInput = req.body.query;
+   
+    const result = results.getResults(userInput);
+   
 
-router.get("/download", controller.download);
+    res.render('results', { result }); 
+
+});
+router.get("/download", download.download);
+
 
 // Add other routes if needed
 // router.get('/about', (req, res) => {

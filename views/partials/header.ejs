@@ -22,7 +22,6 @@
               O Meni
             </a>
             <ul class="dropdown-menu text-center">
-              <li><a class="dropdown-item" href="/omeni">Ko sam ja?</a></li>
               <li><a class="dropdown-item" href="/download">CV</a></li>
               
               <li><a class="dropdown-item disabled" href="#">Sajt CV-a (u izradi)</a></li>
@@ -30,9 +29,9 @@
           </li>
           
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn btn-outline-light" type="submit">Search</button>
+        <form action="/search" method="POST" class="d-flex" role="search">
+          <input class="form-control me-2" name="query" type="search" placeholder="Pretraži cenovnik..." aria-label="Search"/>
+          <button class="btn btn-outline-light" type="submit">Pretraži</button>
         </form>
       </div>
     </div>

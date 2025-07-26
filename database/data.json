@@ -1,18 +1,18 @@
 {
     "index": {
         "titles":[
-                {"title": "Šta pružamo od usluga?", "content":""},
-                {"title": "Zašto baš mi?", "content":"Iskusan mladi radnik sa više sastavljenih računara, poznavanjem čak i PS3 hardware-a, rešeni brojni problemi na računarima i visoko poznavanje softwarea.<br> <b style='font-weight:600'>Pouzdanost</b> i <b style='font-weight:600'>povoljnost</b> na jednom mestu."},
-                { "title": "Odakle smo?", "content": "Servis računara nalazi se u Pančevu, moguć je dolazak na Vašu adresu ili donošenje računara kod nas. Nadamo se da ćemo biti Vaša prva opcija, srećna kupovina!" }
+                {"title": "Šta pružam od usluga?", "content":""},
+                {"title": "Zašto baš ja?", "content":"Iskusan mladi radnik sa više sastavljenih računara, poznavanjem čak i PS3 hardware-a, rešeni brojni problemi na računarima i visoko poznavanje softwarea.<br> <b style='font-weight:600'>Pouzdanost</b> i <b style='font-weight:600'>povoljnost</b> na jednom mestu."},
+                { "title": "Odakle sam?", "content": "Nalazim se u Pančevu, moguć je dolazak na Vašu adresu ili donošenje računara kod mene." }
             
         ],
         "card":[
             { "title": "Zamena termalne paste", "content": "Moguće je menjanje paste na računarima, PS3 i ostalim konzolama..." },
-            { "title": "Sastavljanje računara", "content": "Sastavljanje svih komponenata u jednu celinu (ne radimo sa vodenim hlađenjem i pastama od tečnog metala)." },
+            { "title": "Sastavljanje računara", "content": "Sastavljanje svih komponenata u jednu celinu (ne radim sa vodenim hlađenjem i pastama od tečnog metala)." },
             { "title": "Instaliranje softvera", "content": "Ponuda se kreće od najnovih operativnih sistema, do profesionalnih aplikacija pa čak i video igara." },
             { "title": "Pravljenje web-stranica", "content": "Statičke i dinamičke web strane (poput ove) su takođe dostupne. Moguća integracija sa bazom podataka." },
             { "title": "Editovanje videa/slika", "content": "Rad u Premiere Pro i Photoshop programu za razne montaže" },
-            { "title": "I još mnogo toga...", "content": "To nije sve! Kliknite <a href='/cenovnik'> ovde </a> za cene i još sjajnih usluga." }
+            { "title": "I još mnogo toga...", "content": "To nije sve! Kliknite <a href='/cenovnik'> ovde </a> za cene i još sjajnih usluga. Za ponude koje nisu izlistane <a onclick='highlightFooter()' href='#footer' > pozovite </a> ili pošaljite mejl" }
         ]
     
     },

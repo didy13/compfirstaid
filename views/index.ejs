@@ -16,82 +16,78 @@
     <%- include('partials/header.ejs')  %>
     <div class="indexMain container-fluid text-center pt-4">
       <div class="container">
-        <div class="indexMainRow1 row ">
+        <div class="indexMainRow1 row">
           <div class="col-12 text-center">
-            <h1 class="text-center"><%=index.titles[0].title%></h1>
+            <h1 class="text-center"><%= index.titles[0].title %></h1>
           </div>
-          <div class="">
-          <div class="row text-center mt-4">
-      
-          <div class="col-xl-3 col-lg-5 col-12 text-center">
-            <div class="card " style="width: 18rem;">
-              <img src="images/thermal.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><%=index.card[0].title%></h5>
-                <p class="card-text"><%=index.card[0].content%></p>
-               
+    
+          <div class="row text-center mt-4 g-4">
+            <div class="col-xl-3 col-md-5 col-12 d-flex justify-content-center">
+              <div class="card h-100">
+                <img src="images/thermal.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= index.card[0].title %></h5>
+                  <p class="card-text"><%= index.card[0].content %></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-xl-3 col-md-5 col-12 d-flex justify-content-center">
+              <div class="card h-100">
+                <img src="images/assembly.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= index.card[1].title %></h5>
+                  <p class="card-text"><%= index.card[1].content %></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-xl-3 col-md-5 col-12 d-flex justify-content-center">
+              <div class="card h-100">
+                <img src="images/software.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= index.card[2].title %></h5>
+                  <p class="card-text"><%= index.card[2].content %></p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-5 col-12 text-center">
-            <div class="card" style="width: 18rem;">
-              <img src="images/assembly.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><%=index.card[1].title%></h5>
-                <p class="card-text"><%=index.card[1].content%></p>
-                
+          <div class="row text-center mt-4 g-4">
+            <div class="col-xl-3 col-md-5 col-12 d-flex justify-content-center">
+              <div class="card h-100">
+                <img src="images/web.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= index.card[3].title %></h5>
+                  <p class="card-text"><%= index.card[3].content %></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-xl-3 col-md-5 col-12 d-flex justify-content-center">
+              <div class="card h-100">
+                <img src="images/video.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= index.card[4].title %></h5>
+                  <p class="card-text"><%= index.card[4].content %></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-xl-3 col-md-5 col-12 d-flex justify-content-center">
+              <div class="card h-100">
+                <img src="images/COMP FIRST-AID normal.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= index.card[5].title %></h5>
+                  <p class="card-text"><%- index.card[5].content %></p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-5 col-12 text-center">
-            <div class="card" style="width: 18rem;">
-              <img src="images/software.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><%=index.card[2].title%></h5>
-                <p class="card-text"><%=index.card[2].content%></p>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        
-       <br>
-        <div class="row text-center mt-4">
-          <div class="col-xl-3 col-lg-5 col-12 text-center">
-            <div class="card " style="width: 18rem;">
-              <img src="images/web.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><%=index.card[3].title%></h5>
-                <p class="card-text"><%=index.card[3].content%></p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-5 col-12 text-center">
-            <div class="card" style="width: 18rem;">
-              <img src="images/video.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><%=index.card[4].title%></h5>
-                <p class="card-text"><%=index.card[4].content%></p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-5 col-12 text-center mt-3">
-            <div class="card" style="width: 18rem;">
-              <img src="images/COMP FIRST-AID normal.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title"><%=index.card[5].title%></h5>
-                <p class="card-text"><%-index.card[5].content%></p>
-                
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>  
+    
         </div>
       </div>
     </div>
+    
     <div class="indexMain2 container-fluid text-center mt-5">
       <div class="container">
         <div class="indexDiv row m-4 ">

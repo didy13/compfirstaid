@@ -3,7 +3,7 @@ function tab(id){
      switch (id){
           case "github": x = window.open("https://github.com/didy13/compfirstaid", "", "");
           break;
-          case "instagram": x = window.open("https://instagram.com", "", "");
+          case "instagram": x = window.open("https://instagram.com/compfirstaid", "", "");
           break;
           case "tiktok": x = window.open("https://tiktok.com", "", "");
           break;

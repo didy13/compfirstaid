@@ -7,7 +7,7 @@ function tab(id){
           break;
           case "tiktok": x = window.open("https://tiktok.com", "", "");
           break;
-          case "facebook": x = window.open("https://facebook.com", "", "");
+          case "facebook": x = window.open("https://www.facebook.com/people/Comp-First-Aid/61578976426888/", "", "");
           break;
      }
      
